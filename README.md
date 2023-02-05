@@ -1,7 +1,7 @@
 # Challenge 3 - JavaScript Password Generator
 
 ## Description
-I built this application to enable employees to generate strong passwords that provide greater security. The application creates random passwords based on criteria chosen by the employees from the options presented to them by the application.. This app runs in the browser, and is powered by JavaScript code that I wrote, which dynamically updates HTML and CSS. The application utilises a responsive user interface that adapts to multiple screen sizes.
+This application was built to enable employees to generate strong passwords that provide greater security. The application creates random passwords based on criteria chosen by the employees from the options presented to them by the application. This app runs in the browser, and is powered by JavaScript code that dynamically updates HTML and CSS. The application utilises a responsive user interface that adapts to multiple screen sizes.
 
 ## Installation
 The project is deployed via GitHub Pages.
