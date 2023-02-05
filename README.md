@@ -7,15 +7,15 @@ This application was built to enable employees to generate strong passwords that
 The project is deployed via GitHub Pages.
 
 ## Usage:
-User clicks the button to generate a password
-User is prompted for the length of the password
-User chooses a length of at least 8 characters and no more than 128 characters
-User is presented with a series of prompts for selecting password criteria: lowercase, uppercase, numeric, and special characters
-For each criteria prompt, the user selects whether or not to include the character type in the password
-For each criteria prompt, the user’s input is validated
+The user clicks the button to generate a password.
+The user is prompted to input a length for the password.
+The user chooses a length of at least 8 characters and no more than 128 characters
+The user is presented with a series of prompts for selecting password criteria: lowercase, uppercase, numeric, and special characters. 
+The user each criteria prompt, the user selects whether or not to include the character type in the password
+The user each criteria prompt, the user’s input is validated
 After all prompts have been answered, the user input is validated to ensure that at least one character type has been selected
 Once the input has passed validation, a password is generated that matches the selected criteria
-The password is either displayed in an alert or written to the page
+The password is written to the page
 
 ## Credits
 
