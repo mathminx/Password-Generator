@@ -27,6 +27,10 @@ The user is presented with a series of prompts for selecting password criteria: 
 After all prompts have been answered, the user input is validated to ensure that at least one character type has been selected. Once the input has passed validation, a password is generated that matches the selected criteria. The password is written to the page.
 ![image](https://user-images.githubusercontent.com/122234007/216851146-4b4c45c6-df30-4378-8843-e57016470bb2.png)
 
+At any point, if the user clicks the Cancel button, the process stops and a "cancelled" message is displayed. 
+![image](https://user-images.githubusercontent.com/122234007/216851659-618049e3-dd8b-4a8f-92ff-6a3040394e32.png)
+
+
 ## Credits
 
 The style.css and index.html files were provided.
