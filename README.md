@@ -3,7 +3,9 @@
 https://mathminx.github.io/Password-Generator/
 
 ## Description
-This application was built to enable employees to generate strong passwords that provide greater security. The application creates random passwords based on criteria chosen by the employees from the options presented to them by the application. This app runs in the browser, and is powered by JavaScript code that dynamically updates HTML and CSS. The application utilises a responsive user interface that adapts to multiple screen sizes.
+This application was built to enable employees to generate strong passwords that provide greater security. The application creates random passwords based on criteria chosen by the employees from the options presented to them by the application. This app runs in the browser, and is powered by JavaScript code that dynamically updates HTML and CSS. 
+
+It is worth noting that the minimum and maximum lengths are stored in variables rather than hard-coded; I chose to do this in case the minimum and/or maximum password lengths change in the future. Should this happen, the script can be updated simply by changing the values of the variables. 
 
 ## Installation
 The project is deployed via GitHub Pages.
@@ -14,7 +16,7 @@ The user clicks the button to generate a password.
 ![image](https://user-images.githubusercontent.com/122234007/216850741-52ee757e-733f-4d43-9e7e-d712a8837543.png)
 
 
-The user is prompted to input a length for the password. The user chooses a length of at least 8 characters and no more than 128 characters. The input is validated to ensure that only whole numbers between 8 and 120 are accepted. 
+The user is prompted to input a length for the password. The user chooses a length of at least 8 characters and no more than 128 characters. The input is validated to ensure that only whole numbers between 8 and 128 are accepted. 
 ![image](https://user-images.githubusercontent.com/122234007/216851271-7a28ae1c-542c-43f6-b92c-0db6fdff1f34.png)
 
 
