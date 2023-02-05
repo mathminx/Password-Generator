@@ -7,7 +7,7 @@ var selectedCharacters = [];
 var yesOrNo = ['Y', 'N'];
 
 var minLength = 8;
-var maxLength = 120;
+var maxLength = 128;
 var newPassword;
 var chosenLength;
 
@@ -23,7 +23,7 @@ function chooseLength() {
   selectedCharacters = [];
   chosenLength;
   getLength=null; 
-  var getLength = window.prompt("Enter a length between 8 and 120 characters for your password.");
+  var getLength = window.prompt("Enter a length between " + minLength + " and " + maxLength + " characters for your password.");
   chosenLength = Number(getLength);
   //If user clicks Cancel or if user clicks OK with nothing input, end the function 
   if (getLength === null || !getLength) {
